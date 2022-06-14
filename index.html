@@ -1,15 +1,17 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/img/favicon.ico">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 
 <body>
 
+<!-- Хедер --> 
+    
     <header class="header">
         <div class="container"> 
             <nav class="nav">
@@ -22,24 +24,47 @@
             </nav>
         </div>
     </header>
-    
+      
     <main class="main main-container">
-        <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title">Xenia Fedchenko</h1>
-                <p>28.11.1997, Sevastopol</p>
-            </section>
 
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
+<!-- Левая колонка -->        
+        
+        <div class="left-side">    
+            
+            <figure class="photo">
+                <img src="/rsschool-cv/assets/img/Белый Минималистический Фото Колледж Резюме.png" width="380" height="507" alt="Photo">
+            </figure>
+
+            <section class="section contacts" id="contacts">
+                <h2 class="section-title">Contacts</a></h2>
                 <p>Phone number: +7(978) 783-02-04</p>
                 <p>E-mail: xfedchen@gmail.com</p>
                 <p>Telegram: @kfedchenko</p>
                 <p>Discord: XeniaFed</p>
             </section>
 
+            <section class="section education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><strong>Sevastopol National University Bachelor course</strong></p>
+                <p>Philology and Translation studies (English, German)</p>
+                <p><strong>Humanities and Education Sciences Academy Master’s degree</strong></p>
+                <p>Philology (English)</p>
+            </section>
+       
+        </div>   
+       
+<!-- Правая колонка -->        
+       
+        <div class="right-side">
+
+            <section class="section profile" id="profile">
+                <h1 class="section-title">Xenia Fedchenko</h1>
+                <p>28.11.1997, Sevastopol</p>
+            </section>
+            
+            
             <section class="section" id="summary">
-                <h2 class="section-title">Summary</h2>
+                <h2 class="section-title">Summary</h2> 
                 <p>My name is Xenia Fedchenko. I used to be an SMM specialist but I also have been studying Frontend developing for last 2 months. My main goal for next year is to become a junior Frontend developer. I do not have a real experience in this area, but I am enthusiastic, so that I have a strong believe that I can become a good specialist.</p>
             </section>
 
@@ -48,19 +73,12 @@
                 <p>HTML - basic</p>
                 <p>CSS - basic</p>
                 <p>JavaScript - basic</p>
+                <p>Figma - basic</p>
             </section>
 
             <section class="section" id="experience">
                 <h2 class="section-title">Experience</h2>
                 <p>Alvion Europe, Sevastopol • Aug, 2021 to Present SMM specialist</p>
-            </section>
-
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-                <p><strong>Sevastopol National University Bachelor course</strong></p>
-                <p>Philology and Translation studies (English, German)</p>
-                <p><strong>Humanities and Education Sciences Academy Master’s degree</strong></p>
-                <p>Philology (English)</p>
             </section>
 
             <section class="section" id="languages">
@@ -81,9 +99,18 @@
         </div>
     </main>
 
+<!-- Футер -->       
     <footer class="footer">
         <div class="container">
-
+            <section class="footer-section">
+                <h2 class="git"><a href="https://github.com/XeniaFed">My GitHub</a></h2>
+                <p class="footer-year">2022</p>
+            </section>
+        </div>
+        <div class="container">
+            <section class="rs">
+                <img src="/gt/rsschool-cv/assets/img/rs_school_js.svg" alt="RS School"> 
+            </section>
         </div>
     </footer>
 </body>
