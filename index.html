@@ -1,235 +1,126 @@
-@font-face {
-    font-family: Roboto;
-     src: url("assets/fonts/Roboto/Roboto-Black.ttf");
-   }
-@font-face {
-    font-family: Roboto-Bold;
-    src: url("assets/fonts/Roboto/Roboto-Bold.ttf");
-}  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 
-@media (max-width: 768px) {
-    .section {
-        width: 100%;
-    }
-}
+<body>
 
-* {
-    box-sizing: border-box;
-  }
-  
-html {
-    scroll-behavior: smooth;
-}
+<!-- Хедер --> 
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #4d2323;
-}
+    <header class="header">
+        <div class="container"> 
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+      
+    <main class="main main-container">
 
-.footer {
-        background-color: #2c323d;
-        display: grid;
-        width: 100%;
-        grid-template-columns: 1fr 1fr 1fr;
-        color: white;
-    }
+<!-- Левая колонка -->        
+        
+        <div class="left-side">    
+            
+            <figure class="photo">
+                <img src="../rsschool-cv/assets/img/Me.PNG" alt="Photo" class="photo">
+            </figure>
 
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    grid-template-columns: 40px 50px auto 50px 40px;
-}
+            <section class="section contacts" id="contacts">
+                <h2 class="section-title">Contacts</a></h2>
+                <p class="cont">Phone number: +7(978) 783-02-04</p>
+                <p class="cont">E-mail: xfedchen@gmail.com</p>
+                <p class="cont">Telegram: @kfedchenko</p>
+                <p class="cont">Discord: XeniaFed</p>
+            </section>
 
-.nav {
-    background-color: rgba(0, 0, 0, 0.1);
-    display: block;
-    width: auto;
-}
+            <section class="section education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="cont">
+                    <li><strong>Sevastopol National University Bachelor course</strong></li>
+                    Philology and Translation studies (English, German)
+                    <li><strong>Humanities and Education Sciences Academy Master’s degree</strong></li>
+                    Philology (English)
+                </ul>    
+            </section>
+       
+        </div>   
+       
+<!-- Правая колонка -->        
+       
+        <div class="right-side">
 
-.nav-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    list-style: none;
-    width: auto;
-    flex-direction: row;
-    align-items: center;
-    padding: 0 20px;
-    line-height: 50px;
-    position: relative;
-    font-size: 20px;
-    color: black;
-}
+            <section class="section" id="profile">
+                <h1>Xenia <br> Fedchenko</h1>
+            </section>
+            
+            
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2> 
+                <p class="aboutme">My name is <strong>Xenia Fedchenko</strong>. I used to be an SMM manager but I also have been studying Frontend developing for last 2 months. My main <strong> goal for next year is to become a junior Frontend developer</strong>. I do not have a real experience in this area, but I am enthusiastic, so that I have a strong believe that I can become a good specialist.</p>
+            </section>
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
+            <section class="section" id="skills">
+                <h2 class="section-title section-skills">Skills</h2>
+                <ul class="skills">
+                    <li><strong>HTML</strong> - basic</li>
+                    <li><strong>CSS</strong> - basic</li>
+                    <li><strong>JavaScript</strong> - basic</li>
+                    <li><strong>Figma</strong> - independent user</li>
+                    <li><strong>Git</strong> - basic</li>
+                </ul>
+            </section>
 
-.section {
-    width: 50%;
-    display: block;
-}
+            <section class="section" id="experience">
+                <h2 class="section-title section-experience">Experience</h2>
+                <p class="exp"><strong>LeadStartup, Moscow - Copywriter</strong></p>
+                    <p class="exp">• Mar, 2021 to Aug, 2021</p> 
+                <p class="exp"><strong>Alvion Europe, Sevastopol - SMM manager </strong></p> 
+                    <p class="exp">• Aug, 2021 to Present </p>
+            </section>
 
-.section-title {
-    position: relative;
-    margin: 0;
-    margin-bottom: 36px;
-    padding-left: 60px;
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: black;
-    line-height: 36px;
+            <section class="section" id="languages">
+                <h2 class="section-title section-languages">Language skills</h2>
+                <p><strong>English</strong></p>
+                <p>B1</p>
+            </section>
 
-}
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <p>123</p>
+            </section>
 
-.section-item {
-    position: relative;
-    padding-left: 30px;
-}
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <p><a href="https://github.com/XeniaFed/rsschool-cv">My CV-project</a></p>
+            </section>
+        </div>
+    </main>
 
-.link {
-    text-decoration: none;
-    color: #829985;
-    transition: color 0.5s;
-}
-
-.git {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 20px;
-    line-height: 50px;
-    list-style: none;
-}
-
-
-
-
-
-.contacts {
-    padding: 44px 0px 54px 0px;
-    height: 300px;
-    background-color: #343945;
-    color: white;
-    font-size: 18px;
-    width: 400px;
-}
-
-.education {
-    position: relative;
-    margin-top: 0;
-    padding: 0px 0px 54px 0px;
-    background-color: #2c323d;
-    color: white;
-    font-size: 18px;
-    width: 100%;
-}
-
-.right-side {
-    position: relative;
-    display: block;
-    height: 100%;
-    margin-left: 0;
-    margin-right: 250px;
-    padding: 0;
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 400;
-    color: black;
-    display: grid;
-    grid-template-columns: 1000px;
-    
-}
-
-.left-side {
-    display: grid;
-    margin-left: 225px;
-    margin-right: auto;
-    grid-template-columns: 400px; 
-    background-color: #2c323d;
-    color: white;
-}
-
-.section-title::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 20px;
-    height: 36px;
-    background-color: #f2c100;
-}
-
-.left-side .section-title {
-    background-color: lightgray;
-}
-
-.right-side .section-title {
-    background-color: lightgray;
-    width: 1000px;
-}
-
-
-.cont {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.photo {
-    margin: 0;
-    padding: 0;
-    width: 100%
-}
-
-.aboutme {
-    display: block;
-    width: 900px;
-    margin: 0 50px 0 50px;
-    padding: 0;
-    line-height: 24px;
-    font-size: 16px;
-}
-
-.section-skills {
-    margin-top: 50px;
-}
-
-.skills {
-    margin-left: 30px;
-}
-
-.section-experience {
-    margin-top: 40px;
-}
-
-.exp {
-    margin-left: 50px;
-}
-
-.section-languages {
-    margin-top: 50px;
-}
-
-h1 {
-    position: relative;
-    margin-top: 200px;
-    height: 200px;
-    padding-left: 60px;
-    font-size: 26px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: black;
-    line-height: 36px;
-}
+<!-- Футер -->       
+    <footer class="footer">
+        <div class="container">
+            <section class="footer-section">
+                <h2 class="git"><a href="https://github.com/XeniaFed">My GitHub</a></h2>
+                <p class="footer-year">2022</p>
+            </section>
+        </div>
+        <div class="container">
+            <section class="rs">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="../rsschool-cv/assets/img/rs_school_js.svg" width="400px" height="80px" alt="RS School" > 
+                </a>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
