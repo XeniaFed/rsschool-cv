@@ -23,7 +23,7 @@ My name is Xenia Fedchenko. I used to be an SMM manager but I also have been stu
 + LeadStartup, Moscow - Copywriter
   Mar,2021 to Aug, 2021
 + Alvion Europe, Sevastopol
-  Aug '21 to Present SMM specialist
+  Aug '21 to Present SMM manager
 
 ## Education
 **Sevastopol National University Bachelor course** 
