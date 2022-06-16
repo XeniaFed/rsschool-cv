@@ -11,16 +11,19 @@ Telegram: @kfedchenko
 Discord: XeniaFed
 
 ## About
-My name is Xenia Fedchenko. I used to be an SMM specialist but I also have been studying Frontend developing for last 2 months. My main goal for next year is to become a junior Frontend developer. I do not have a real experience in this area, but I am enthusiastic, so that I have a strong believe that I can become a good specialist.
+My name is Xenia Fedchenko. I used to be an SMM manager but I also have been studying Frontend developing for last 2 months. My main goal for next year is to become a junior Frontend developer. I do not have a real experience in this area, but I am enthusiastic, so that I have a strong believe that I can become a good specialist.
 
 ## Skills
 + HTML, CSS - basic
++	JavaScript - basic
++	Figma - independent user
 +	Git - basic
-+	Communication
 
 ## Work experience
-Alvion Europe, Sevastopol
-•	Aug '21 to Present SMM specialist
++ LeadStartup, Moscow - Copywriter
+  Mar,2021 to Aug, 2021
++ Alvion Europe, Sevastopol
+  Aug '21 to Present SMM specialist
 
 ## Education
 **Sevastopol National University Bachelor course** 
@@ -31,7 +34,10 @@ Philology and Translation studies (English, German)
 
 Philology (English)
 
-## English skills - B1
+## Language skills 
++ English - B1
++ Russian - Native
++ Ukranian - Native
 
 ## Projects
 CV - https://github.com/XeniaFed/rsschool-cv
