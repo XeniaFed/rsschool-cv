@@ -1,3 +1,4 @@
+![Photo of Xenia Fedchenko](/img/Me.png)
 # Fedchenko Xenia
 **28.11.1997, Sevastopol**
 ## Contacts
